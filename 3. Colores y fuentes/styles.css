@@ -1,0 +1,94 @@
+* {
+    font-family: 'Satisfy', cursive;
+    margin:0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #8A2BE2;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    background: #ADD8E6;
+}
+
+button{
+    font-size:10 px;
+    background: #778899;
+    border: none;
+    font-family:'Libre Caslon Display', serif;
+}
+
+button:active{
+    background: rgba(200, 0,0, 0.5);
+}
+
+header{
+    background: #008080;
+    border: 1px solid black;
+    height: 70px;
+}
+
+section{
+    background: rgba(32, 43, 192, 0.5);
+    border: 1px solid black;
+    height: 280px;
+}
+
+footer{
+    background: #F5DEB3;
+    border: 1px solid black;
+    height: 20px;
+    font-size: 15px;
+}
+
+.logo{
+    background: #4682B4;
+    border: 1px solid black;
+    width: 30%;
+    float: left;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+}
+
+nav {
+    background:#EE82EE;
+    border: 1px solid black;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+nav ul li a:hover{
+    color: #8A2BE2;
+}
+
+div{
+    background: #008080;
+}
+
+.imagenPagina{
+    background-color: #4682B4
+}
+
+.parrafoInformacion {
+float: right;
+}
